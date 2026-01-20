@@ -1,1 +1,21 @@
 /* Place CSS styles here */
+body {
+  background-color: #abcfff;
+}
+img {
+  width: 300px;
+  height: auto;
+}
+.container {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  height: 100vh;           /* or parent height */
+}
+.container {
+  display: grid;
+  place-items: center;
+}
+body {
+  font-family: Helvetica, sans-serif;
+}
