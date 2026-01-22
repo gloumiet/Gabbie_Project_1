@@ -5,17 +5,22 @@ body {
 img {
   width: 300px;
   height: auto;
-}
-.container {
-  display: flex;
-  justify-content: center; /* horizontal */
-  align-items: center;     /* vertical */
-  height: 100vh;           /* or parent height */
-}
-.container {
-  display: grid;
-  place-items: center;
+  align-items: center;
 }
 body {
   font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: #1c2a71;
+}
+h1 {
+  font-size: 20px;
+  text-align: center;
+  color: #1c2a71;
+}
+p{
+  font-size: 30;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  color: #1c2a71;
 }
